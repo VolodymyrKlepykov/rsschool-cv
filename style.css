@@ -1,15 +1,73 @@
 .cv {
     width: 50%;
-    max-width: 1320px;
-    min-width: 600;
+    max-width: 980px;
     padding: 50px 20px;
-    margin-left: auto;
-    margin-right: auto
-
+    margin: auto;
 }
+
 .summary {
     hyphens: auto;
+    padding-top: 20px;
 }
 .left-image {
     float: right;
+}
+.image-profile{
+    height: 200px;
+    width: auto;
+    padding-left: 40px;
+}
+.contact-info  {
+    list-style: none;
+}
+
+
+li, p {
+  line-height: 1.5;
+  font-size: 120%;
+}
+
+.main-info {
+    margin-top: -40px;
+}
+h2 {
+    margin-bottom: -10px;
+    color: darksalmon;
+}
+h3 {
+    margin-bottom: -10px;
+}
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-link-info-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+.footer-link-info-course img {
+    width: 100%;
+    height: auto;
+}
+.image-footer-rs-school {
+    width: 160px;
+}
+@media screen and (max-width: 600px) {
+    .footer-link-info-course {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer-link-info-course img{
+        width: 100px;
+        height: 100px;
+    }
 }
