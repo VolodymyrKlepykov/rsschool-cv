@@ -1,0 +1,15 @@
+.cv {
+    width: 50%;
+    max-width: 1320px;
+    min-width: 600;
+    padding: 50px 20px;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.summary {
+    hyphens: auto;
+}
+.left-image {
+    float: right;
+}
