@@ -5,39 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>CV</title>
   </head>
-  <body>
-    <section class="cv">
-        <h1>CV</h1>
-      <img src="ric.png" alt="" />
-      <ol>
-        <li>Volodymyr Klepykov</li>
-        <li>
-          <strong>Info:</strong> email: voloymyr.klepykov@gmail.com, tel
-          +380992060115.
-        </li>
-        <li class="summary">
-          <strong>Summary:</strong> With a childish Curiosity, perseverance,
-          patience, focus and love for new knowledge, I go to my goal of
-          becoming a web developer. I study quickly, not so long ago I was a
-          builder, and now I study web development.
-        </li>
-        <li><strong>Skils:</strong> JavaScript, Git, VS code.</li>
-        <li>
-          <strong>Example code:</strong> hiSay = 'Hello World!'; <br />
-          alert(hiSay);
-        </li>
-        <li></li>
-        <li>
-          <strong>Education:</strong> course: "HTML5/ CSS3/JavaScript
-          fundamentals" by SoftServe. <br />
-          online learning: freecodecamp, codewars. books: "Eloquent JavaScript"
-          <br />
-          by Marijn Haverbeke. <br />
-        </li>
-        <li><strong>English:</strong> A2.</li>
-      </ol>
-    </section>
+  <body class="cv">
+    <header class="header-top">
+      <section>
+        <h1>Volodymyr Klepykov</h1>
+        <article class="summary">
+          <h2>Summary:</h2>
+          <p>
+            With a childish curiosity, perseverance, patience, focus and love
+            for new knowledge, I go to my goal of becoming a web developer. I
+            study quickly, not so long ago I was a builder, and now I study web
+            development.
+          </p>
+        </article>
+      </section>
+      <div>
+        <img class="image-profile" src="volodya.png" alt="Volodya and mountains in Poland" />
+        <ul class="contact-info">
+          <li><a href="tel:+380992060115">+38 (099) 206-01-15</a></li>
+          <li>
+            <a href="volodymyr.klepykov@gmail.com"
+              >volodymyr.klepykov@gmail.com</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/VolodymyrKlepykov"
+              >github.com/VolodymyrKlepykov</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main-info">
+      <h2>Skills:</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>VS Code</li>
+      </ul>
+      <h2>Code examples:</h2>
+      <p>
+        const hiSay = 'Hello World!'; <br />
+        alert(hiSay);
+      </p>
+      <h2>Experience:</h2>
+      <p>---</p>
+      <h2>Education:</h2>
+      <h3>course:</h3>
+      <p>"HTML5/ CSS3/JavaScript fundamentals" by SoftServe.</p>
+      <h3>online learning:</h3>
+      <p>freecodecamp, codewars</p>
+      <h3>books:</h3>
+      <p>"Eloquent JavaScript" by Marijn Haverbeke.</p>
+      <h2>English:</h2>
+      <p>A2</p>
+    </main>
+    <footer class="footer-link-info-course">
+        <div><h3>© 2021</h3></div>
+      <div>
+        <a href="https://github.com/VolodymyrKlepykov"
+          ><img src="github.svg" alt="github image (black cat)"
+        /></a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=KXrqeVishsw"><img src="YouTube_full-color_icon_(2017).svg" alt="youtube image (red pick)" /></a>
+      </div>
+      <div class="image-footer-rs-school">
+        <a href="https://rs.school/"> <img src="rs_school_js.svg" alt="rs_school image" /></a>
+      </div>
+    </footer>
   </body>
 </html>
